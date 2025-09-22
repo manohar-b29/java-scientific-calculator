@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/manohar-b29/java-scientific-calculator.git'
+                git branch: 'master', url: 'https://github.com/manohar-b29/java-scientific-calculator.git'
             }
         }
 
